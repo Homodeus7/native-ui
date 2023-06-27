@@ -1,0 +1,128 @@
+@font-face {
+  font-family: 'Metropolis';
+  src: url('@/assets/fonts/Metropolis-Regular.woff2') format('woff2'),
+    url('@/assets/fonts/Metropolis-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Metropolis';
+  src: url('@/assets/fonts/Metropolis-Light.woff2') format('woff2'),
+    url('@/assets/fonts/Metropolis-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Metropolis';
+  src: url('@/assets/fonts/Metropolis-Medium.woff2') format('woff2'),
+    url('@/assets/fonts/Metropolis-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Metropolis';
+  src: url('@/assets/fonts/Metropolis-Bold.woff2') format('woff2'),
+    url('@/assets/fonts/Metropolis-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('@/assets/fonts/Inter-Medium.woff2') format('woff2'),
+    url('@/assets/fonts/Inter-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('@/assets/fonts/Inter-Regular.woff2') format('woff2'),
+    url('@/assets/fonts/Inter-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --text-color: #fff;
+  --primary: #2080f0;
+  --primary-hover: #4098fc;
+  --primary-pressed: #1060c9;
+  --primary-progress-bg: #d2e6fc;
+  --second: #9a55bc;
+  --second-hover: #a85cce;
+  --second-pressed: #9348b9;
+  --second-progress-bg: #e2c4f2;
+  --success: #18a058;
+  --success-hover: #36ad6a;
+  --success-pressed: #0c7a43;
+  --success-progress-bg: #d0ecdd;
+  --info: #2080f0;
+  --info-hover: #4098fc;
+  --info-pressed: #1060c9;
+  --info-progress-bg: #a6d8f1;
+  --warning: #f0a020;
+  --warning-hover: #fcb040;
+  --warning-pressed: #c97c10;
+  --warning-progress-bg: #fad7a0;
+  --danger: #d03050;
+  --danger-hover: #de576d;
+  --danger-pressed: #ab1f3f;
+  --danger-disabled: #d03050;
+  --danger-progress-bg: #f6d5dc;
+
+  //dark-sheme
+  --d-text-color: rgba(255, 255, 255, 0.9);
+  --d-primary: #70c0e8;
+  --d-primary-hover: #8acbec;
+  --d-primary-pressed: #66afd3;
+  --d-second: #c18eda;
+  --d-second-hover: #d19cec;
+  --d-second-pressed: #ae77ca;
+  --d-success: #63e2b7;
+  --d-success-hover: #7fe7c4;
+  --d-success-pressed: #5acea7;
+  --d-info: #70c0e8;
+  --d-info-hover: #8acbec;
+  --d-info-pressed: #66afd3;
+  --d-warning: #f2c97d;
+  --d-warning-hover: #f5d599;
+  --d-warning-pressed: #e6c260;
+  --d-danger: #e88080;
+  --d-danger-hover: #e98b8b;
+  --d-danger-pressed: #e57272;
+  --d-danger-disabled: #e88080;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #fafafa;
+  margin: 0;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.line {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  &_block {
+    display: block;
+  }
+}
